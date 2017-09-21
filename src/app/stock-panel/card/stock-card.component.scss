@@ -1,0 +1,32 @@
+.card-column {
+  height: 100%;
+  width: 160px;
+
+  .card {
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    margin: -100px 5px 0 0;
+    position: relative;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px -4px rgba(0,0,0,0.8);
+  }
+}
+
+.logo {
+  width: 140px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.no-round {
+  width: 140px;
+  border-radius: 0;
+  margin: 5px;
+}
+
+.apple {
+  width: 40px;
+  margin: 0 36%;
+}
