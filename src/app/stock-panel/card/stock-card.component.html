@@ -2,10 +2,33 @@
   <div class="card">
     <img [ngClass]="getlogoClass()" [src]="stockData.logo">
 
+    <div class="current-value">
+      <label>Current value</label>
+      <div class="value">{{stockData.marketCapital}}</div>
+    </div>
+
     <div class="content">
+
       <div class="field">
         <label>Market capital</label>
-        <div class="value"></div>656 B</div>
+        <div class="value">{{stockData.marketCapital}}</div>
+      </div>
+
+      <div class="field">
+        <label>Max value</label>
+        <div class="value">{{stockData.marketCapital}}</div>
+      </div>
+
+      <div class="field">
+        <label>Min value</label>
+        <div class="value">{{stockData.marketCapital}}</div>
+      </div>
+
+      <div class="field">
+        <label>Open value</label>
+        <div class="value">{{stockData.marketCapital}}</div>
+      </div>
+
     </div>
   </div>
 </div>
