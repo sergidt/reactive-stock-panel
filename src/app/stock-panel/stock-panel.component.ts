@@ -1,5 +1,5 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
-import { StockData, stockDataList } from '../models/app.model';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { stockDataList } from '../services/app.service';
 
 @Component({
     selector: 'stock-panel',
@@ -10,6 +10,8 @@ import { StockData, stockDataList } from '../models/app.model';
 export class StockPanelComponent implements OnInit {
 
     stockDataList = stockDataList;
+
+
 
     ngOnInit() {
     }
